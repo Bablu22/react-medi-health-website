@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Neurology",
+        "img": "https://i.ibb.co/RcQJ97c/xdept-1-jpg-pagespeed-ic-RSSq686th-P.webp",
+        "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle."
+    },
+    {
+        "id": 2,
+        "name": "Ophthalmology",
+        "img": "https://i.ibb.co/TkzCXY7/xdept-2-jpg-pagespeed-ic-EYh-Oppi5y.webp",
+        "description": "Ophthalmology (/ˌɒfθælˈmɒlədʒi/)[1] is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye.[2] An ophthalmologist is a physician who specializes in ophthalmology.[3] The credentials include a degree in medicine, followed by additional four to five years of residency training in ophthalmology. Residency training programs for ophthalmology may require a one-year internship with training in internal medicine, pediatrics, or general surgery."
+    },
+    {
+        "id": 3,
+        "name": "Nuclear Magnetic",
+        "img": "https://i.ibb.co/yFKd2JK/xdept-3-jpg-pagespeed-ic-m-CR1b-U-ZXH.webp",
+        "description": "Nuclear magnetic resonance (NMR) is a physical phenomenon in which nuclei in a strong constant magnetic field are perturbed by a weak oscillating magnetic field (in the near field[1]) and respond by producing an electromagnetic signal with a frequency characteristic of the magnetic field at the nucleus. This process occurs near resonance, when the oscillation frequency matches the intrinsic frequency of the nuclei, which depends on the strength of the static magnetic field, the "
+    },
+    {
+        "id": 4,
+        "name": "X-Ray",
+        "img": "https://i.ibb.co/v4FKY0m/xdept-4-jpg-pagespeed-ic-q-Y0-Abt-Iklr.webp",
+        "description": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation. Most X-rays have a wavelength ranging from 10 picometers to 10 nanometers, corresponding to frequencies in the range 30 petahertz to 30 exahertz and energies in the range 124 eV to 124 keV. "
+    },
+    {
+        "id": 5,
+        "name": "Surgical",
+        "img": "https://i.ibb.co/d62YTXZ/xdept-5-jpg-pagespeed-ic-5i-Ft-I6m-FOz.webp",
+        "description": "Surgery[a] is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas.The act of performing surgery may be called a surgical procedure, operation, or simply \"surgery\". In this context, the verb \"operate\" means to perform surgery. The adjective surgical means pertaining to surgery; e.g. surgical instruments or surgical nurse. The person or subject on which the surgery is performed can be a person or an animal."
+    },
+    {
+        "id": 6,
+        "name": "Cardiology",
+        "img": "https://i.ibb.co/K5qKd7b/xdept-6-jpg-pagespeed-ic-3mz-Tx-REy-Hd.webp",
+        "description": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology."
+    }
+]

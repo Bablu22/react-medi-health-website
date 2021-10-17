@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Lloyd Wilson",
+        "img": "https://i.ibb.co/fSSxtDK/1.webp",
+        "title": "Neurology"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Rachel Parker",
+        "img": "https://i.ibb.co/sgXXZJ7/4.webp",
+        "title": "OPHTHALMOLOGIST"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Ian Smith",
+        "img": "https://i.ibb.co/vQPSmJt/2.webp",
+        "title": "Nuclear Magnetic"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Alicia Henderson",
+        "img": "https://i.ibb.co/LDyWKN5/6.webp",
+        "title": "X-Ray"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Adam Brain",
+        "img": "https://i.ibb.co/QF83w5Y/3.webp",
+        "title": "Surgical"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Jhon Smith",
+        "img": "https://i.ibb.co/bJ9Hs9f/5.webp",
+        "title": "Cardiology"
+    }
+]
