@@ -1,0 +1,13 @@
+.about-banner{
+    background-image: url(../../../images/about/bradcam.png.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}
+.about-hero{
+    background-image: url(../../../images//about/backgroung.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

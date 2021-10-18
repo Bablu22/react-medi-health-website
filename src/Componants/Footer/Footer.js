@@ -13,7 +13,6 @@ const Footer = () => {
                                 <div>
                                     <img src={Logo} alt="" />
                                 </div>
-
                                 <h5 className="mt-4 text-gray-400">Far far away, behind the word mountains, <br /> far from the countries.</h5>
                                 <div className=" flex mt-10 card-actions">
                                     <div className="icon"><i className="fab text-white fa-facebook-f"></i></div>
@@ -54,7 +53,7 @@ const Footer = () => {
                     <div class="mt-16 border-t-2 border-gray-600 flex flex-col items-center">
                         <div class="sm:w-2/3 text-center py-6">
                             <p class="text-lg text-gray-400 font-bold mb-2">
-                               Copyright © 2021 by Bablu Mia
+                                Copyright © 2021 by Bablu Mia
                             </p>
                         </div>
                     </div>

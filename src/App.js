@@ -13,6 +13,7 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 import Home from './Componants/Home/Home';
 import PagenotFound from './Componants/PageNotFound/PagenotFound';
 import Footer from './Componants/Footer/Footer';
+import About from './Componants/Pages/About/About';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/about">
+              <About></About>
             </Route>
             <PrivateRoute path="/service/:serviceID">
               <ServiceDetails></ServiceDetails>

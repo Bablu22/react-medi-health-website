@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import image from '../../../images/welcome.webp'
 const Welcome = () => {
     return (
@@ -37,9 +38,12 @@ const Welcome = () => {
                         </svg>
                         <h3 className="text-xl ml-5 text-gray-700">Health Consultation</h3>
                     </div>
-                    <button className=" w-6/12 mt-10 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                        About Us
-                    </button>
+                    <Link to="/about">
+                        <button
+                            className=" w-6/12 mt-10 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                            About Us
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
