@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Dr. Lloyd Wilson",
-        "img": "https://i.ibb.co/fSSxtDK/1.webp",
+        "img": "https://i.ibb.co/cxfbnBV/asset-1.webp",
         "title": "Neurology"
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": 3,
         "name": "Dr. Ian Smith",
-        "img": "https://i.ibb.co/vQPSmJt/2.webp",
+        "img": "https://i.ibb.co/BNfpyzC/asset-2.webp",
         "title": "Nuclear Magnetic"
     },
     {
@@ -32,7 +32,7 @@
     {
         "id": 6,
         "name": "Dr. Jhon Smith",
-        "img": "https://i.ibb.co/bJ9Hs9f/5.webp",
+        "img": "https://i.ibb.co/XsRGmGr/asset-3.webp",
         "title": "Cardiology"
     }
 ]

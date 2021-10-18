@@ -1,0 +1,42 @@
+.card{
+    height: 400px;
+    position: relative;
+    transition: .5s;
+}
+
+.card-img{
+    border: 10px solid #f8f9fa;
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.card-desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card:hover{
+    background-color: #3f81c7;
+    transition: .5s;
+    color: white;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(187, 187, 187);
+    text-align: center;
+    margin-left: 10px;
+    color: #3181d6;
+}
+.card:hover .icon{
+    color: white;
+    border-color: white;
+}

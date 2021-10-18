@@ -1,0 +1,37 @@
+.service-img{
+    position: relative;
+}
+.service-img img{
+    position: relative;
+}
+.service-img::after{
+    content: '';
+    position: absolute;
+    background-color:#04091ecc;
+    width: 83%;
+    height: 100%;
+    opacity: .8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 80px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.service-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 200;
+   
+}
+.service-text h5{
+    z-index: 200;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}

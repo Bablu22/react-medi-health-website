@@ -6,6 +6,8 @@ import { NavLink } from 'react-router-dom';
 import Logo from '../../images/logo.webp'
 import useAuth from '../../hooks/useAuth';
 import User from '../../images/user.jpg'
+import './Header.css'
+
 const Header = () => {
     const { user, logOut } = useAuth()
     return (
@@ -33,7 +35,7 @@ const Header = () => {
                                     <div className="hidden sm:block sm:ml-auto">
                                         <div className="flex space-x-4 text-white font-medium">
                                             <NavLink to="/home">Home</NavLink>
-                                            <NavLink to="/booking">Booking</NavLink>
+                                            <NavLink to="/service">Booking</NavLink>
                                             <NavLink to="/contact">Contact</NavLink>
                                         </div>
                                     </div>
