@@ -2,7 +2,7 @@ import React from 'react';
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuAlt1Icon, XIcon } from '@heroicons/react/outline'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../../images/logo.webp'
 import useAuth from '../../hooks/useAuth';
 import User from '../../images/user.jpg'
@@ -29,9 +29,11 @@ const Header = () => {
                                     </Disclosure.Button>
                                 </div>
                                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                                    <div className="flex-shrink-0 flex items-center">
-                                        <img src={Logo} alt="" />
-                                    </div>
+                                    <Link to="/home">
+                                        <div className="flex-shrink-0 flex items-center">
+                                            <img src={Logo} alt="" />
+                                        </div>
+                                    </Link>
                                     <div className="hidden sm:block sm:ml-auto">
                                         <div className="flex space-x-4 text-white font-medium">
                                             <NavLink to="/home">Home</NavLink>
