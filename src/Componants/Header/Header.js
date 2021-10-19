@@ -36,6 +36,7 @@ const Header = () => {
                                         <div className="flex space-x-4 text-white font-medium">
                                             <NavLink to="/home">Home</NavLink>
                                             <NavLink to="/about">About</NavLink>
+                                            <NavLink to="/department">Services</NavLink>
                                             <NavLink to="/contact">Contact</NavLink>
                                         </div>
                                     </div>
@@ -129,6 +130,9 @@ const Header = () => {
                                 </div>
                                 <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     <NavLink to="/about">About</NavLink>
+                                </div>
+                                <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                    <NavLink to="/department">Services</NavLink>
                                 </div>
 
                                 <div className="bg-gray-900 text-white text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">

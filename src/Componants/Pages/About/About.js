@@ -3,6 +3,12 @@ import './About.css'
 import image from '../../../images/about/about.png'
 import Slider from "react-slick";
 import Testimonial from './Testimonial';
+import image1 from '../../../images/brand/brand1.webp'
+import image2 from '../../../images/brand/brand2.webp'
+import image3 from '../../../images/brand/brand3.webp'
+import image4 from '../../../images/brand/brand4.webp'
+import image5 from '../../../images/brand/brand5.webp'
+
 const About = () => {
 
     const [testimonial, setTestimonial] = useState([])
@@ -82,6 +88,16 @@ const About = () => {
                 </Slider>
             </div>
 
+            <div className="container mx-auto p-10 my-20 w-full ">
+                <div className="sm:grid sm:grid-cols-5 grid grid-cols-2 gap-10 py-20">
+                    <img src={image1} alt="" />
+                    <img src={image2} alt="" />
+                    <img src={image3} alt="" />
+                    <img src={image4} alt="" />
+                    <img src={image5} alt="" />
+                </div>
+                <hr />
+            </div>
         </div>
     );
 };

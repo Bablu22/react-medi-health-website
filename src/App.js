@@ -14,6 +14,8 @@ import Home from './Componants/Home/Home';
 import PagenotFound from './Componants/PageNotFound/PagenotFound';
 import Footer from './Componants/Footer/Footer';
 import About from './Componants/Pages/About/About';
+import Contact from './Componants/Pages/Contact/Contact';
+import Departments from './Componants/Pages/Departments/Departments';
 
 
 function App() {
@@ -37,6 +39,12 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
+            <Route path="/department">
+              <Departments></Departments>
             </Route>
             <PrivateRoute path="/service/:serviceID">
               <ServiceDetails></ServiceDetails>
