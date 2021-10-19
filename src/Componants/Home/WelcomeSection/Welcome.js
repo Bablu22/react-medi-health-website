@@ -26,7 +26,6 @@ const Welcome = () => {
                                 loop: true,
                                 
                               }}
-                            
                         />
                     </div>
                     <p className="text-gray-500 text-justify mb-10">Give their their without moving were stars called so divide female be moving night may fish him own male vreated great Give their their without moving were. Stars called so divide female moving night may fish him own male created great opportunity deal.</p>
