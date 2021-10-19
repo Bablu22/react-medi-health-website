@@ -76,7 +76,7 @@ const About = () => {
             </div>
 
             {/* Testimonial section */}
-            <div className="container mx-auto my-32">
+            <div className="container mx-auto my-32 p-10">
                 <h2 className="text-center text-5xl font-medium italic text-indigo-900 py-10">Our Patient Says</h2>
                 <Slider {...settings}>
                     {

@@ -5,7 +5,7 @@ const Testimonial = ({ testimonial }) => {
     const { name, img, description } = testimonial
 
     return (
-        <div className="shadow m-5">
+        <div className="shadow sm:m-5 m-0 overflow-hidden">
             <div className="bg-white rounded-lg p-10">
                 <div className="flex items-center space-x-6 mb-4">
                     <img className="h-28 w-28 object-cover object-center rounded-full" src={img} alt="" />
