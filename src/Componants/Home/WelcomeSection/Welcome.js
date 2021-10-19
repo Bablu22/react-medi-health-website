@@ -1,15 +1,34 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import image from '../../../images/welcome.webp'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Typewriter from 'typewriter-effect';
 const Welcome = () => {
+    useEffect(() => {
+        AOS.init({ duration: 3000 });
+    }, [])
+
     return (
-        <div className="container mx-auuto sm:p-20 p-5">
-            <div className="sm:flex justify-evenly ">
+        <div data-aos="fade-up" className="container mx-auto sm:p-20 p-5">
+            <div className="sm:flex justify-center ">
                 <div className="w-full">
                     <img src={image} alt="" />
                 </div>
                 <div className="w-full p-5">
-                    <h1 className="sm:text-6xl text-4xl mb-10 italic">Welcome To <br /> <span className="font-medium">Modern Clinic.</span> </h1>
+                    <h1 className="sm:text-6xl text-4xl mb- italic">Welcome To <br /> </h1>
+                    <div className="sm:text-6xl text-4xl mb-10 italic font-medium">
+                        <Typewriter
+                            loop={true}
+                            options={{
+                                strings: ['Modern Clinic.','Modern Hospital.'],
+                                autoStart: true,
+                                loop: true,
+                                
+                              }}
+                            
+                        />
+                    </div>
                     <p className="text-gray-500 text-justify mb-10">Give their their without moving were stars called so divide female be moving night may fish him own male vreated great Give their their without moving were. Stars called so divide female moving night may fish him own male created great opportunity deal.</p>
 
                     <div className="flex items-center mt-3">

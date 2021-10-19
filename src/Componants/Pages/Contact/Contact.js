@@ -2,12 +2,12 @@ import React from 'react';
 import '../About/About.css'
 const Contact = () => {
     return (
-        <div>
+        <div className="">
             <div className="about-banner">
                 <h1 className="text-5xl text-center italic text-white font-medium">Contact Us</h1>
             </div>
 
-            <div className="container mx-auuto sm:p-20 p-5">
+            <div className="container mx-auto sm:p-20 p-5">
                 <div className="sm:grid grid-cols-2 gap-20">
                     <div className="w-full">
                         <div className="sm:grid grid-cols-2 gap-5">

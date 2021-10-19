@@ -57,11 +57,11 @@ const About = () => {
     };
 
     return (
-        <div>
+        <div className="">
             <div className="about-banner">
                 <h1 className="text-5xl text-center italic text-white font-medium">About Us</h1>
             </div>
-            <div className="about-hero">
+            <div className="about-hero my-20">
                 <div className="container mx-auto">
                     <div className="sm:grid grid-cols-2 gap-8">
                         <div className="">
